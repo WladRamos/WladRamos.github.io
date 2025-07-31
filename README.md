@@ -7,4 +7,3 @@ This is my personal portfolio website, built to showcase my experience, projects
 The portfolio is be available at:
 
 **[https://wladramos.github.io/](https://wladramos.github.io/)**  
-*(replace with actual GitHub Pages link once deployed)*
