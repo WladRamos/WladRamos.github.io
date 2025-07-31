@@ -179,3 +179,37 @@ footer {
     margin: 5px 10px;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.timeline-item, .education-item, .certificate-list li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.institution-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.content-block {
+  flex: 1;
+}
+
+@media (max-width: 600px) {
+  .timeline-item, .education-item, .certificate-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .institution-logo {
+    margin-bottom: 10px;
+  }
+}
+
